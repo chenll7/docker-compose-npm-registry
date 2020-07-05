@@ -5,5 +5,5 @@ services:
     restart: always
     volumes:
       - "./verdaccio.yml:/verdaccio.yml"
-    command: "-c /verdaccio.yml"
+    command: ["-c","/verdaccio.yml"]
     
