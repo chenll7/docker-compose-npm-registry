@@ -1,8 +1,8 @@
 # #号后面是注释
 # 所有包的缓存目录
-storage: ./verdaccio_cache/storage
+storage: /verdaccio/storage
 # 插件目录
-plugins: ./verdaccio_cache/plugins
+plugins: /verdaccio/plugins
 
 #开启web 服务,能够通过web 访问
 web:

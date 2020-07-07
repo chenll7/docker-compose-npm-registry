@@ -5,4 +5,10 @@ services:
     restart: always
     volumes:
       - "./config.yml:/verdaccio/conf/config.yaml"
-    
+      - "storage:/verdaccio/storage"
+    ports:
+      - "4873:4873"
+
+
+volumes:
+  storage: 
