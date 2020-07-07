@@ -4,6 +4,5 @@ services:
     image: verdaccio/verdaccio
     restart: always
     volumes:
-      - "./verdaccio.yml:/verdaccio.yml"
-    command: ["-c","/verdaccio.yml"]
+      - "./config.yml:/verdaccio/conf/config.yaml"
     
